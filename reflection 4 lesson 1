@@ -1,0 +1,8 @@
+git checkout followed by commit id allows you to revert back to a previous version of the repo
+
+this is useful when evaluating code for a bug 
+
+process is: (a) checkout an older commit where you believe commit was free from bug
+
+(b) check result - if bug free, check set of commits between latest commit (with bug) and previous commit (free of bug) - by checking out one of the time and runnign the code, we should be able to identify which commit introduces the bug
+

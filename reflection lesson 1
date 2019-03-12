@@ -1,0 +1,9 @@
+reflection lesson 1
+
+using fc command to compare files for windows
+
+cd into folder with files to compare
+
+use syntax fc 'old file' 'new file'
+
+only lines that have changed are shown 
