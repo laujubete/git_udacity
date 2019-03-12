@@ -1,0 +1,10 @@
+cd into folder with files and run git init.
+
+this will initialize a git repo
+
+running git status will show the untracked files in the repo
+
+
+reflection 2 lesson 2
+
+the staging area is different from the working directory and from the repository for the following reasons: it is an intermediate state between the working directory and the repository. It is useful for a number of reasons, but mainly because it allows for a subset of changes to be commited at one time, in connection with one logical change. in other words, if the working dorectory contained changes related to more than one logical change, without a state such as the staging area all changes would be commited into the repo, independent on their natural logical grouping.
