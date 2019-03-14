@@ -8,3 +8,15 @@ running git status will show the untracked files in the repo
 reflection 2 lesson 2
 
 the staging area is different from the working directory and from the repository for the following reasons: it is an intermediate state between the working directory and the repository. It is useful for a number of reasons, but mainly because it allows for a subset of changes to be commited at one time, in connection with one logical change. in other words, if the working dorectory contained changes related to more than one logical change, without a state such as the staging area all changes would be commited into the repo, independent on their natural logical grouping.
+
+reflection 3 lesson 2
+
+creasting branches is a useful approach in the following circumstances - context switching: development vs production branches
+(1) experimentation on new features 
+(2) different language 
+
+
+How do the diagrams help you visualize the branch structure?
+diagrams show the initial master branch and the origin of the different branches off the master branch or other branches 
+
+
