@@ -20,3 +20,8 @@ How do the diagrams help you visualize the branch structure?
 diagrams show the initial master branch and the origin of the different branches off the master branch or other branches 
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is the combination of the code in both branches, in particular:
+(1) if a line of code is in both files, the line will be kepted in the merged file
+(2) if a line of code was in the original file but is not in both branches, it will be deleted from the final file
+(3) if a line of code was not in the original file, but is present in one of the files, it will be deleted from the final file
