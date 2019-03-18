@@ -24,4 +24,11 @@ What is the result of merging two branches together? Why do we represent it in t
 The result is the combination of the code in both branches, in particular:
 (1) if a line of code is in both files, the line will be kepted in the merged file
 (2) if a line of code was in the original file but is not in both branches, it will be deleted from the final file
-(3) if a line of code was not in the original file, but is present in one of the files, it will be deleted from the final file
+(3) if a line of code was not in the original file, but is present in one of the files, it will be ... from the final file
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros is that it can save a lot of effort by doing it automatically
+Cons is that it may not get it right all the time
+
+
+
