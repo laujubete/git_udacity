@@ -1,0 +1,63 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    using fc command to compare files for windows
+
+	cd into folder with files to compare
+
+	use syntax fc 'old file' 'new file'
+
+	only lines that have changed are shown 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Commit changes that are grouped around one logical change
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log command shows the history of commits in the repo
+
+	important to note that most recent commits appear at the top, scrolling down alows you to see older commits
+
+	git diff lets you compare two commits, syntax is 'git diff oldcommit newcommit'
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    git checkout followed by commit id allows you to revert back to a previous version of the repo
+
+	this is useful when evaluating code for a bug 
+
+	process is: (a) checkout an older commit where commit may be bug free
+
+	(b) check result - if bug free, check set of commits between latest commit (with bug) and previous commit (free of bug) - by checking out one commit at the time and runnign the code, we should be able to identify which commit introduces the bug
+
+	important to note that git log after a checkout does not show the latest commits - one solution to checkout recent commits is to copy the commit id of the most recent commit - but there are other solutions
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+
+
+
+
+using fc command to compare files for windows
+
+cd into folder with files to compare
+
+use syntax fc 'old file' 'new file'
+
+only lines that have changed are shown 
